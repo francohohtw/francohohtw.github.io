@@ -1,0 +1,35 @@
+title: Intern Year
+tagline: Learning medicine, one day at a time.
+description: 一個醫學生的臨床實習日記與學習筆記。
+url: ""
+baseurl: ""
+lang: zh-TW
+timezone: Asia/Taipei
+permalink: /journal/:year/:month/:day/:title/
+markdown: kramdown
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      section: internship
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: post
+      section: notes
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
