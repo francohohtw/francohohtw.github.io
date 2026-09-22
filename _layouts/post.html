@@ -20,5 +20,23 @@ layout: default
     {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
   </footer>
   {% endif %}
-</article>
 
+  {% if page.collection == 'posts' %}
+    {% if page.previous or page.next %}
+    <nav class="post-navigation" aria-label="相鄰實習日誌">
+      {% if page.previous %}
+        <a class="post-navigation-link previous" href="{{ page.previous.url | relative_url }}">
+          <span>上一篇</span>
+          <strong>{{ page.previous.title }}</strong>
+        </a>
+      {% endif %}
+      {% if page.next %}
+        <a class="post-navigation-link next" href="{{ page.next.url | relative_url }}">
+          <span>下一篇</span>
+          <strong>{{ page.next.title }}</strong>
+        </a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  {% endif %}
+</article>

@@ -1,7 +1,7 @@
 title: 白袍練習簿
 tagline: Between rounds, learning one day at a time.
 description: 一個醫學生的臨床實習日記與學習筆記。
-url: ""
+url: "https://francohohtw.github.io"
 baseurl: ""
 lang: zh-TW
 timezone: Asia/Taipei
@@ -32,4 +32,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-
