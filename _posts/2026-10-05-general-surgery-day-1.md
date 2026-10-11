@@ -1,5 +1,5 @@
 ---
-title: "Clerk Day 21：一般外科第一天"
+title: "一般外科 Day 1"
 date: 2026-10-05 18:30:00 +0800
 department: 一般外科
 day: 1
