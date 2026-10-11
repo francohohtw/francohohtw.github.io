@@ -1,5 +1,5 @@
 ---
-title: "一般外科 Day 1"
+title: "一般外科 Day 1：臨床不只要會看病"
 date: 2026-10-05 18:30:00 +0800
 department: 一般外科
 day: 1

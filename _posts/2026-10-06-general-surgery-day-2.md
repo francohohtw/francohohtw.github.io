@@ -1,5 +1,5 @@
 ---
-title: "一般外科 Day 2"
+title: "一般外科 Day 2：第一次放 Foley，永生難忘"
 date: 2026-10-06 18:30:00 +0800
 department: 一般外科
 day: 2
